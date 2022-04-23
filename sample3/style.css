@@ -12,5 +12,8 @@ hr {
 h1 {
   font-size: 18px;
   font-weight: bold;
-  
+
+}
+.form-group>label {
+  font-weight: bold;
 }
