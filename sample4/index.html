@@ -17,7 +17,10 @@
   </header>
   <div class="container">
    <script>
-     document.write(' <p class="date">20xx/01/23</p>');
+      let today = new Date();
+      let newYear = new Date(2022, 1, 1);
+      document.write('<p>今日は、' + today.getDate() + '日です</p>');
+      document.write('<p>元旦は、' + newYear.getDate() + 'です</p>');
    </script>
   </div>
   
